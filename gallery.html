@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gallery - S.J.MS School</title>
+</head>
+
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: #3498db;
+}
+
+section .gallery-item {
+    margin-bottom: 20px;
+}
+
+section .gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+section .gallery-item p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Media Queries for responsive design */
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    nav {
+        text-align: right;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+</style>
+<body>
+
+<header>
+    <h1>Gallery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="news.html">News</a></li>
+            <!-- Add more links as needed -->
+        </ul>
+    </nav>
+</header>
+
+<section id="gallery-content">
+    <h2>Photo Gallery</h2>
+    
+    <div class="gallery-item">
+        <img src="gallery/Screenshot_20240207-200621_1.jpg" alt="Oboo Emma">
+        <p>Developer</p>
+    </div>
+
+    <div class="gallery-item">
+        <img src="gallery/Screenshot_20240214-135418_1.jpg" alt="Eyecon">
+        <p>Director</p>
+    </div>
+
+    <!-- Add more gallery items as needed -->
+</section>
+
+<!-- Add more sections based on your content -->
+
+<footer>
+    <p>&copy; 2024 S.J.M.Sch. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

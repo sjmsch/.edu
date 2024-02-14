@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calendar - S.J.MS School</title>
+</head>
+
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: #3498db;
+}
+
+section .event {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Media Queries for responsive design */
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    nav {
+        text-align: center;
+    }
+
+}
+
+</style>
+<body>
+
+<header>
+    <h1>Calendar</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admission.html">Admissions</a></li>
+            <!-- Add more links as needed -->
+        </ul>
+    </nav>
+</header>
+
+<section id="calendar-events">
+    <h2>Upcoming Events</h2>
+    
+    <div class="event">
+        <h3>Back-to-School Night</h3>
+        <p>Date: September 10, 2024</p>
+        <p>Time: 6:00 PM - 8:00 PM</p>
+        <p>Location: School Auditorium</p>
+    </div>
+
+    <div class="event">
+        <h3>Parent-Teacher Conferences</h3>
+        <p>Date: October 15-16, 2024</p>
+        <p>Time: 4:00 PM - 7:00 PM</p>
+        <p>Location: Classrooms</p>
+    </div>
+
+    <!-- Add more events as needed -->
+</section>
+
+<!-- Add more sections based on your content -->
+
+<footer>
+    <p>&copy; 2024 S.J.MS School. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

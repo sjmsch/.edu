@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>News - S.J.MS School</title>
+</head>
+
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: #3498db;
+}
+
+section .news-item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section .news-item h3 {
+    color: #3498db;
+}
+
+section .news-item p {
+    margin-bottom: 10px;
+}
+
+section .news-item .read-more {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Media Queries for responsive design */
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    nav {
+        text-align: center;
+    }
+
+}
+
+</style>
+<body>
+
+<header>
+    <h1>News</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="admission.html">Admissions</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <!-- Add more links as needed -->
+        </ul>
+    </nav>
+</header>
+
+<section id="latest-news">
+    <h2>Latest News</h2>
+    
+    <article class="news-item">
+        <h3>School Achieves High Exam Results</h3>
+        <p>Date: August 25, 2024</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+        <a href="#" class="read-more">Read more</a>
+    </article>
+
+    <article class="news-item">
+        <h3>New Sports Facility Opening Soon</h3>
+        <p>Date: August 18, 2024</p>
+        <p>Exciting news! Our new state-of-the-art sports facility will be opening its doors soon. Get ready for a new era of athleticism...</p>
+        <a href="#" class="read-more">Read more</a>
+    </article>
+
+    <!-- Add more news articles as needed -->
+</section>
+
+<!-- Add more sections based on your content -->
+
+<footer>
+    <p>&copy; 2024 S.J.M.Sch. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
